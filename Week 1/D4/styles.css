@@ -1,0 +1,125 @@
+body {
+    margin: 20px;
+    height: 100vh;
+    background-color: rgb(233, 237, 238);
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(19, 25, 33);
+}
+
+#img {
+   width: 10%;
+   margin-left: 20px;
+}
+
+
+#heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:rgb(35, 47, 62);
+    height: 60px;
+}
+.p {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    color: white;
+}
+
+.holiday {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: orange;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#holiday2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#holiday2-img {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+#holiday2-text {
+    display: flex;
+    align-items: stretch;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 20px 10px 20px 10px;
+
+}
+
+.imagesdiv {
+   display: flex;
+}
+
+.image {
+    margin: 50px 20px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.bottom-img-div {
+    margin:20px 10px 20px 10px;
+
+}
+.bottom-img {
+    width: 100%;
+}
+
+.text-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#link {
+    padding: 0px 0px 0px 10px;
+}
+
+#footer {
+    background-color: rgb(35, 47, 62) ;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-text {
+    color: white;
+}
+
+#amazon-bottom-div {
+    background-color:  rgb(19, 25, 33);
+    display: flex;
+    justify-content: center;
+
+}
+
+#amazon-bottom { 
+    width: 200px;
+    margin: 10px 0px 10px 0px;
+
+}

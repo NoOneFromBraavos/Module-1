@@ -1,0 +1,456 @@
+body {
+    height: 100vh;
+    margin: 0 5px 0 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.header-top-2 {
+    display: flex;
+
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+#medium {
+    width: 220px
+}
+
+.ion-icon {
+    padding: 10px;
+}
+
+
+.header-text {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.header-text-2 {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    padding: 25px;
+}
+
+
+.recommended {
+    font-weight: bold;
+}
+
+.membership {
+    border: 1px solid grey;
+    border-radius: 25px;
+    display: flex;
+    height: 20px;
+    width: 200px;
+    justify-content: center;
+    
+}
+
+.t {
+   border: 1px solid grey;
+   border-radius: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: red;
+   height: 40px;
+   width: 40px;
+
+
+
+}
+
+
+#section-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    max-width: 70%;
+}
+
+hr {
+    margin: 0;
+}
+
+
+.info-section-2 {
+    display: flex;
+}
+
+.info-section-2 p {
+    padding: 20px;
+}
+
+
+.feed-card__footer {
+    display: flex;
+    align-items: center;
+}
+
+.feed-card__footer p {
+    padding: 10px;
+}
+
+#feed-card__tag{
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.feed-card__icons {
+   display: flex;
+   padding: 0 100px 0 100px;
+}
+
+.redux-img {
+    max-width: 100%;
+    width: 250px;
+    height: auto; 
+}
+
+
+.feed-card__header{
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-card__image {
+    width: 250px;
+    margin: 50px 0 50px 0;
+
+}
+
+.feed-card__snippet {
+    display: flex;
+    width: 500px
+}
+
+.feed-card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.feed-card__title {
+    width: 450px
+}
+
+.feed-card {
+    display: flex;
+    flex-direction: row;
+}
+
+#section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#section2-3 {
+    display: flex;
+}
+
+.twitter-connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos {
+    font-size: xx-large;
+}
+
+.twitter-connect__button {
+  border: solid 1px black;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+}
+
+.twitter-icon{
+    display: flex;
+    padding: 0 15px 0 15px;
+}
+
+
+.twitter-connect__button p {
+    padding: 0 15px 0 0;
+    display: flex;
+}
+
+.twitter-connect{
+    margin: 0 50px 50px 0;
+}
+
+
+.twitter-connect__text {
+    display: flex;
+    width: 180px;
+}
+
+.twitter-connect__later {
+    text-decoration: underline;
+}
+
+.subjects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.subjects p {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 5px;
+}
+
+.subjects-tech {
+    display: flex;
+}
+
+.subjects-psych {
+    display: flex;
+}
+
+.subjects-art {
+    display: flex;
+}
+
+.recommended-topics__header {
+    font-weight: bold;
+
+}
+
+.recommended-topics {
+    margin-bottom: 50px;
+}
+
+
+#text-follow {
+    font-weight: bold;
+}
+
+
+
+
+.who-to-follow{
+    position: relative;
+    padding-top: 1rem; 
+}
+
+.follow-layout {
+    display: flex;
+    gap: 20px;
+}  
+
+.buttons {
+   display: flex;
+   flex-direction: column;
+   gap: 65px; 
+} 
+
+
+.follow-btn{
+    padding: 4px 14px;
+    border: 1px solid #000;
+    border-radius: 9999px;
+    cursor: pointer;
+
+}
+
+
+
+
+.Lessig-div .follow-text,
+.David-div .follow-text,
+.Bonsu-div .follow-text {
+    margin-left: auto;      
+    align-self: center;     
+    border: 1px solid #000;
+    border-radius: 9999px;  
+    padding: 0 .75rem;
+    line-height: 1.6;
+    white-space: nowrap;
+ 
+}
+
+.Lessig img,
+.David img,
+.Bonsu img {
+    width: 50px;
+    height: 50px;           
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+} 
+
+.Lessig-div,
+.David-div,
+.Bonsu-div {
+    display: flex;
+    margin: 0 0 15px 0;
+}
+
+
+.Lessig,
+.David,
+.Bonsu {
+  
+    padding: 0 10px 0 0;
+}
+
+
+.Lessig-text p,
+.David-text p,
+.bonsu-thompson p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.Lessig-main,
+.David-main,
+.Bonsu-main {
+    font-weight: bold;
+}
+
+
+
+
+
+.saved-articles {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.saved-article {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.saved-article__author {
+    display: flex;
+    margin: 0 0 -20px 0;
+}
+
+.saved-article__author div {
+    display: flex;
+}
+
+.saved-article-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.saved-article-text p {
+    padding: 0 5px 0 0 ;
+
+}
+
+.saved-article__title {
+    margin: 0 0 -20px 0;
+}
+
+
+.Chrissy-info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chrissy-top {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -20px;
+    align-items: center;
+}
+
+.chrissy-img-div img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chrissy-top p {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.Chrissy {
+    display: flex;
+    margin-bottom: -20px;
+}
+
+.Chrissy p {
+    font-weight: bold;
+}
+
+
+
+.date-time-chrissy {
+    display: flex;
+    gap: 10px;
+    margin-bottom: -10px;
+}
+
+.subjects-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.subjects-bottom p {
+    padding: 5px;
+}
+
+.help-subjects {
+    display: flex;
+}
+
+.help-subjects p {
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 5px;
+}
+
+.privacy-subjects {
+    display: flex;
+
+}
+
+.privacy-subjects p {
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 5px;
+}
+
+#see-all {
+    color: green;
+
+}
